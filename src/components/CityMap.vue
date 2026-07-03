@@ -110,9 +110,12 @@
         <g
           v-for="d in districts.filter((x) => hasSpot(x.id))"
           :key="`b-${d.id}`"
-          :transform="`translate(${lngToX(d.center.lng)}, ${latToY(d.center.lat)})`"
           class="bubble"
           :class="{ selected: selectedId === d.id, hover: hoverId === d.id }"
+          :style="{
+            '--bx': lngToX(d.center.lng) + 'px',
+            '--by': latToY(d.center.lat) + 'px'
+          }"
           @click="$emit('select-district', d)"
           @mouseenter="hoverId = d.id"
           @mouseleave="hoverId = null"
@@ -217,10 +220,16 @@ function hasSpot(id) {
 
 .bubble {
   cursor: pointer;
-  transition: transform 0.2s;
+  /* 位置和缩放都交给 CSS,避免 CSS transform 覆盖 SVG attribute transform 导致气泡乱跳 */
+  transform: translate(var(--bx), var(--by));
+  /* transform-origin 保持默认 0 0(子元素 cx/cy≈0),scale 即"以圆心放大"再 translate */
+  transition: transform 0.2s ease-out;
 }
 .bubble:hover {
-  transform: translate(var(--tx, 0), var(--ty, 0)) scale(1.06);
+  transform: translate(var(--bx), var(--by)) scale(1.06);
+}
+.bubble.selected {
+  transform: translate(var(--bx), var(--by)) scale(1.04);
 }
 .bubble-glow {
   fill: #3d5a47;
