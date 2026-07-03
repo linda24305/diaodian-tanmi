@@ -362,6 +362,9 @@ function truncate(s, n) {
   cursor: pointer;
   transition: all 0.18s;
   margin-bottom: 8px;
+  /* 离屏跳过渲染,节省 layout/paint; 占位高度避免滚动条跳 */
+  contain-intrinsic-size: auto 200px;
+  content-visibility: auto;
 }
 .spot-card:hover {
   transform: translateX(2px);
@@ -382,6 +385,8 @@ function truncate(s, n) {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  /* 图片异步解码,避免阻塞首屏 paint */
+  decoding: async;
 }
 
 .spot-body {
