@@ -36,7 +36,7 @@ export const initialSpots = [
     coords: { lat: 29.71, lng: 118.96 },
     bestSeason: '春秋两季', bestTime: '清晨 5-8 点',
     cover: './cover-images/sp_001.jpg',
-    photos: ['./spot-images/sp_001.png'],
+    photos: ['./spot-images/sp_001.jpg'],
     notes: '千岛湖西南湾,水极清,桂鱼密度高。建议 3.6 米软调竿,米诺或铅头钩挂钩。岸边礁石区穿防滑鞋。',
     author: { name: '老周', avatar: '🐟' },
     visits: 24, likes: 86, createdAt: '2026-05-12', featured: true
@@ -51,7 +51,7 @@ export const initialSpots = [
     coords: { lat: 29.62, lng: 118.99 },
     bestSeason: '夏秋', bestTime: '夜钓 9-11 点',
     cover: './cover-images/sp_002.jpg',
-    photos: ['./spot-images/sp_002.png'],
+    photos: ['./spot-images/sp_002.jpg'],
     notes: '进贤湾深处,大翘嘴聚集,米级个体常见。需租船出湾,铁板路亚或活饵浮钓。',
     author: { name: '山水客', avatar: '🌊' },
     visits: 18, likes: 124, createdAt: '2026-05-18', featured: true
@@ -66,7 +66,7 @@ export const initialSpots = [
     coords: { lat: 29.65, lng: 118.95 },
     bestSeason: '全年', bestTime: '全天',
     cover: './cover-images/sp_009.jpg',
-    photos: ['./spot-images/sp_009.png'],
+    photos: ['./spot-images/sp_009.jpg'],
     notes: '左口乡奎星桥村内湖钓位,水深约 2 米。环境清幽,湖光山色,适合休闲钓。鲫鱼鲤鱼密度高。',
     author: { name: '湖山客', avatar: '🏞️' },
     visits: 32, likes: 67, createdAt: '2026-04-20'
@@ -81,7 +81,7 @@ export const initialSpots = [
     coords: { lat: 29.80, lng: 118.80 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_010.jpg',
-    photos: ['./spot-images/sp_010.png'],
+    photos: ['./spot-images/sp_010.jpg'],
     notes: '威坪镇千岛湖西北岸,需自驾农家私排下竿。大物多,手杆筏竿路亚都能玩。',
     author: { name: '湖西老吴', avatar: '🐠' },
     visits: 14, likes: 53, createdAt: '2026-05-08'
@@ -96,7 +96,7 @@ export const initialSpots = [
     coords: { lat: 29.60, lng: 119.05 },
     bestSeason: '四季皆宜', bestTime: '夜钓最佳',
     cover: './cover-images/sp_011.jpg',
-    photos: ['./spot-images/sp_011.png'],
+    photos: ['./spot-images/sp_011.jpg'],
     notes: '千岛湖外湖五龙桥段,垂钓+烧烤+住宿一站式。野生鱼多,夏季可钓鲢鳙,秋季鳜鱼马口活跃。',
     author: { name: '千岛湖老陈', avatar: '🚣' },
     visits: 26, likes: 88, createdAt: '2026-03-15'
@@ -113,7 +113,7 @@ export const initialSpots = [
     coords: { lat: 30.23, lng: 119.69 },
     bestSeason: '四季皆宜', bestTime: '傍晚 5-8 点',
     cover: './cover-images/sp_003.jpg',
-    photos: ['./spot-images/sp_003.png'],
+    photos: ['./spot-images/sp_003.jpg'],
     notes: '网红水上森林,池杉林立。岸边栈道可下竿,翘嘴活跃。手竿商品饵亦可。',
     author: { name: '临安客', avatar: '🦆' },
     visits: 32, likes: 96, createdAt: '2026-04-22'
@@ -128,7 +128,7 @@ export const initialSpots = [
     coords: { lat: 30.18, lng: 119.40 },
     bestSeason: '春末到秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_012.jpg',
-    photos: ['./spot-images/sp_012.png'],
+    photos: ['./spot-images/sp_012.jpg'],
     notes: '於潜镇至千秋关之间,临安西部山区的"世外桃源"。集水面积 81 平方公里,水质一流,人少景美。',
     author: { name: '潜川客', avatar: '🌲' },
     visits: 11, likes: 78, createdAt: '2026-04-02'
@@ -143,7 +143,7 @@ export const initialSpots = [
     coords: { lat: 30.32, lng: 119.45 },
     bestSeason: '春夏', bestTime: '全天',
     cover: './cover-images/sp_013.jpg',
-    photos: ['./spot-images/sp_013.png'],
+    photos: ['./spot-images/sp_013.jpg'],
     notes: '天目山脚下的山塘水库,免费野钓。水质清澈,环境清幽,适合家庭休闲。鲫鱼密度高。',
     author: { name: '天目山人', avatar: '🌳' },
     visits: 19, likes: 42, createdAt: '2026-05-19'
@@ -158,7 +158,7 @@ export const initialSpots = [
     coords: { lat: 30.20, lng: 119.05 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_014.jpg',
-    photos: ['./spot-images/sp_014.png'],
+    photos: ['./spot-images/sp_014.jpg'],
     notes: '临安西南,美院象山校区附近车程 10 分钟。筏钓手竿都行,水库旁农家乐可吃饭。',
     author: { name: '美院客', avatar: '🎨' },
     visits: 22, likes: 71, createdAt: '2026-06-05'
@@ -175,7 +175,7 @@ export const initialSpots = [
     coords: { lat: 30.27, lng: 120.04 },
     bestSeason: '春末夏初', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_004.jpg',
-    photos: ['./spot-images/sp_004.png'],
+    photos: ['./spot-images/sp_004.jpg'],
     notes: '湿地河道,水草密布,鲫鱼连杆。需办理西溪钓鱼证,3.6 米轻竿,蚯蚓为饵。',
     author: { name: '江南客', avatar: '🛶' },
     visits: 12, likes: 38, createdAt: '2026-06-01'
@@ -190,7 +190,7 @@ export const initialSpots = [
     coords: { lat: 30.18, lng: 120.08 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_015.jpg',
-    photos: ['./spot-images/sp_015.png'],
+    photos: ['./spot-images/sp_015.jpg'],
     notes: '梅家坞附近,免费野钓。水库大坝深 11 米,鱼密度不大但环境好。运气好能上大鲤鱼。',
     author: { name: '梅家坞客', avatar: '🍃' },
     visits: 28, likes: 56, createdAt: '2026-05-14'
@@ -205,7 +205,7 @@ export const initialSpots = [
     coords: { lat: 30.20, lng: 120.10 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_016.jpg',
-    photos: ['./spot-images/sp_016.png'],
+    photos: ['./spot-images/sp_016.jpg'],
     notes: '九溪烟树景区旁,溪流野趣。环境一流但鱼种较小,适合放松休闲。',
     author: { name: '九溪客', avatar: '🌿' },
     visits: 14, likes: 32, createdAt: '2026-06-10'
@@ -220,7 +220,7 @@ export const initialSpots = [
     coords: { lat: 30.28, lng: 120.05 },
     bestSeason: '全年', bestTime: '全天',
     cover: './cover-images/sp_017.jpg',
-    photos: ['./spot-images/sp_017.png'],
+    photos: ['./spot-images/sp_017.jpg'],
     notes: '杭州市区难得的免费河钓点,五常港路与余杭塘路交叉。免费开放,鱼种丰富,岸边平整。',
     author: { name: '五常钓客', avatar: '🎣' },
     visits: 41, likes: 88, createdAt: '2026-03-28'
@@ -237,7 +237,7 @@ export const initialSpots = [
     coords: { lat: 30.32, lng: 120.13 },
     bestSeason: '全年', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_005.jpg',
-    photos: ['./spot-images/sp_005.png'],
+    photos: ['./spot-images/sp_005.jpg'],
     notes: '城北运河段,两岸步道可下竿。鲫鱼为主,偶有鲤鱼。重铅到底,商品饵搓饵。',
     author: { name: '拱墅老李', avatar: '🎣' },
     visits: 28, likes: 52, createdAt: '2026-05-25'
@@ -252,7 +252,7 @@ export const initialSpots = [
     coords: { lat: 30.30, lng: 120.13 },
     bestSeason: '春末到秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_018.jpg',
-    photos: ['./spot-images/sp_018.png'],
+    photos: ['./spot-images/sp_018.jpg'],
     notes: '萍水东街与北城街交叉口,免费河钓点,周边停车便利。城市河道,休闲练杆好去处。',
     author: { name: '城北老张', avatar: '🚶' },
     visits: 17, likes: 34, createdAt: '2026-04-15'
@@ -267,7 +267,7 @@ export const initialSpots = [
     coords: { lat: 30.28, lng: 120.15 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_019.jpg',
-    photos: ['./spot-images/sp_019.png'],
+    photos: ['./spot-images/sp_019.jpg'],
     notes: '环城北路桥至运河段,城市河道垂钓试点。岸线整齐,周边设施全,免费。',
     author: { name: '拱墅客', avatar: '🌆' },
     visits: 22, likes: 41, createdAt: '2026-04-20'
@@ -284,7 +284,7 @@ export const initialSpots = [
     coords: { lat: 30.30, lng: 120.21 },
     bestSeason: '6-10 月', bestTime: '涨潮前后 2 小时',
     cover: './cover-images/sp_006.jpg',
-    photos: ['./spot-images/sp_006.png'],
+    photos: ['./spot-images/sp_006.jpg'],
     notes: '钱塘江闸口段,涨潮时鲈鱼活跃。矶竿路亚或活虾挂漂。夜钓安全第一。',
     author: { name: '钱塘渔夫', avatar: '🌅' },
     visits: 15, likes: 67, createdAt: '2026-06-08'
@@ -299,7 +299,7 @@ export const initialSpots = [
     coords: { lat: 30.22, lng: 120.20 },
     bestSeason: '春末到秋', bestTime: '清晨',
     cover: './cover-images/sp_020.jpg',
-    photos: ['./spot-images/sp_020.png'],
+    photos: ['./spot-images/sp_020.jpg'],
     notes: '上城区闻潮路附近,城市河道垂钓试点之一,周边小区钓友常来。免费开放。',
     author: { name: '钱塘新城客', avatar: '🏙️' },
     visits: 11, likes: 22, createdAt: '2026-05-20'
@@ -316,7 +316,7 @@ export const initialSpots = [
     coords: { lat: 30.18, lng: 120.20 },
     bestSeason: '春夏', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_021.jpg',
-    photos: ['./spot-images/sp_021.png'],
+    photos: ['./spot-images/sp_021.jpg'],
     notes: '滨江区公共垂钓试点河道之一。城市河道,免费,周边交通便利。',
     author: { name: '滨江客', avatar: '🌃' },
     visits: 16, likes: 28, createdAt: '2026-04-30'
@@ -333,7 +333,7 @@ export const initialSpots = [
     coords: { lat: 30.14, lng: 120.20 },
     bestSeason: '春末到秋', bestTime: '全天',
     cover: './cover-images/sp_007.jpg',
-    photos: ['./spot-images/sp_007.png'],
+    photos: ['./spot-images/sp_007.jpg'],
     notes: '湘湖西岸城山脚下,岸边浅滩。3.6 米手竿,商品饵/蚯蚓。免费钓位多,周末人多。',
     author: { name: '萧山阿明', avatar: '🏞️' },
     visits: 22, likes: 49, createdAt: '2026-06-12'
@@ -348,7 +348,7 @@ export const initialSpots = [
     coords: { lat: 30.07, lng: 120.24 },
     bestSeason: '全年', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_022.jpg',
-    photos: ['./spot-images/sp_022.png'],
+    photos: ['./spot-images/sp_022.jpg'],
     notes: '萧山临浦新联,茅潭江原浦阳江支流,水质比浦阳江清澈。鱼庄有餐饮包厢,钓完吃饭方便。',
     author: { name: '临浦客', avatar: '🐟' },
     visits: 21, likes: 64, createdAt: '2026-05-22'
@@ -363,7 +363,7 @@ export const initialSpots = [
     coords: { lat: 29.95, lng: 120.18 },
     bestSeason: '夏秋', bestTime: '清晨 / 夜钓',
     cover: './cover-images/sp_023.jpg',
-    photos: ['./spot-images/sp_023.png'],
+    photos: ['./spot-images/sp_023.jpg'],
     notes: '萧山西江塘南路附近,浦阳江畔野钓点,免费。水深 5 米左右,鱼种丰富,马口路亚绝佳。',
     author: { name: '浦阳江客', avatar: '🚣' },
     visits: 18, likes: 58, createdAt: '2026-04-28'
@@ -378,7 +378,7 @@ export const initialSpots = [
     coords: { lat: 30.16, lng: 120.27 },
     bestSeason: '春末到秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_024.jpg',
-    photos: ['./spot-images/sp_024.png'],
+    photos: ['./spot-images/sp_024.jpg'],
     notes: '萧山城区南门江,水深 0.6-3 米。萧山区开放 68 处免费垂钓点之一,周边设施全。',
     author: { name: '萧山城客', avatar: '🏙️' },
     visits: 25, likes: 47, createdAt: '2026-04-12'
@@ -393,7 +393,7 @@ export const initialSpots = [
     coords: { lat: 30.20, lng: 120.48 },
     bestSeason: '春秋', bestTime: '涨潮前后',
     cover: './cover-images/sp_025.jpg',
-    photos: ['./spot-images/sp_025.png'],
+    photos: ['./spot-images/sp_025.jpg'],
     notes: '钱塘江下游近杭州湾,萧山新湾镇滨海河道。百元塘,出大鱼但要跟河蟹过招。',
     author: { name: '新湾客', avatar: '🌊' },
     visits: 13, likes: 39, createdAt: '2026-05-18'
@@ -410,7 +410,7 @@ export const initialSpots = [
     coords: { lat: 29.92, lng: 119.93 },
     bestSeason: '夏秋', bestTime: '下午 4-7 点',
     cover: './cover-images/sp_008.jpg',
-    photos: ['./spot-images/sp_008.png'],
+    photos: ['./spot-images/sp_008.jpg'],
     notes: '富春江最美回水湾,新杭派民居旁。流水段大物多,玉米/红薯饵料,需重铅守钓。',
     author: { name: '岭南渔', avatar: '🐠' },
     visits: 19, likes: 71, createdAt: '2026-05-30'
@@ -425,7 +425,7 @@ export const initialSpots = [
     coords: { lat: 29.88, lng: 119.65 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_026.jpg',
-    photos: ['./spot-images/sp_026.png'],
+    photos: ['./spot-images/sp_026.jpg'],
     notes: '富春江江心岛屿,江岸线 8 公里。岛上 600 多个鱼塘,农家乐开放垂钓,可住宿吃饭。',
     author: { name: '桐洲老翁', avatar: '🏝️' },
     visits: 24, likes: 75, createdAt: '2026-04-26'
@@ -440,7 +440,7 @@ export const initialSpots = [
     coords: { lat: 29.85, lng: 119.85 },
     bestSeason: '夏秋', bestTime: '夜钓',
     cover: './cover-images/sp_027.jpg',
-    photos: ['./spot-images/sp_027.png'],
+    photos: ['./spot-images/sp_027.jpg'],
     notes: '中埠大桥下方导航直达。常出大鱼,手杆筏竿海竿都能用。缺点:有挂底现象。',
     author: { name: '富阳渔翁', avatar: '🎣' },
     visits: 16, likes: 62, createdAt: '2026-05-12'
@@ -455,7 +455,7 @@ export const initialSpots = [
     coords: { lat: 29.95, lng: 120.05 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_028.jpg',
-    photos: ['./spot-images/sp_028.png'],
+    photos: ['./spot-images/sp_028.jpg'],
     notes: '富阳灵桥村段富春江野钓,鲫鱼 2 两以上,春夏好钓。免费,环境好,免费停车。',
     author: { name: '灵桥客', avatar: '🌾' },
     visits: 13, likes: 31, createdAt: '2026-04-08'
@@ -472,7 +472,7 @@ export const initialSpots = [
     coords: { lat: 30.45, lng: 119.85 },
     bestSeason: '四季皆宜', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_029.jpg',
-    photos: ['./spot-images/sp_029.png'],
+    photos: ['./spot-images/sp_029.jpg'],
     notes: '径山镇四岭村,继青山湖后又一杭州钓友天堂。水域宽广,水深鱼大,台钓海竿路亚都能玩。',
     author: { name: '径山客', avatar: '⛰️' },
     visits: 28, likes: 105, createdAt: '2026-03-30', featured: true
@@ -487,7 +487,7 @@ export const initialSpots = [
     coords: { lat: 30.50, lng: 120.18 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_030.jpg',
-    photos: ['./spot-images/sp_030.png'],
+    photos: ['./spot-images/sp_030.jpg'],
     notes: '余杭区最大淡水湖,1800 亩,与京杭大运河相通。风光优美,可登湖中小岛,20 元/天。',
     author: { name: '塘栖客', avatar: '⛵' },
     visits: 31, likes: 82, createdAt: '2026-04-15'
@@ -502,7 +502,7 @@ export const initialSpots = [
     coords: { lat: 30.42, lng: 120.05 },
     bestSeason: '秋冬', bestTime: '清晨',
     cover: './cover-images/sp_031.jpg',
-    photos: ['./spot-images/sp_031.png'],
+    photos: ['./spot-images/sp_031.jpg'],
     notes: '良渚文化遗址旁的天然钓场,免费开放。每天上百钓友,鱼类丰富,从鲫鱼到青鱼都有。',
     author: { name: '良渚客', avatar: '🏛️' },
     visits: 38, likes: 73, createdAt: '2026-05-05'
@@ -517,7 +517,7 @@ export const initialSpots = [
     coords: { lat: 30.40, lng: 119.95 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_032.jpg',
-    photos: ['./spot-images/sp_032.png'],
+    photos: ['./spot-images/sp_032.jpg'],
     notes: '余杭区山间水库,风景秀丽,鱼类皆为野生。建议菜籽饼+酒米打窝,一荤一素大小兼顾。',
     author: { name: '大禹后人', avatar: '🌄' },
     visits: 21, likes: 56, createdAt: '2026-04-22'
@@ -534,7 +534,7 @@ export const initialSpots = [
     coords: { lat: 30.30, lng: 120.40 },
     bestSeason: '春秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_033.jpg',
-    photos: ['./spot-images/sp_033.png'],
+    photos: ['./spot-images/sp_033.jpg'],
     notes: '钱塘区下沙街道,水深 2-3 米,常见淡水鱼都有。包头鱼鲢鱼受保护,钓位有限。',
     author: { name: '下沙客', avatar: '🏢' },
     visits: 18, likes: 35, createdAt: '2026-05-08'
@@ -549,7 +549,7 @@ export const initialSpots = [
     coords: { lat: 30.32, lng: 120.42 },
     bestSeason: '全年', bestTime: '全天',
     cover: './cover-images/sp_034.jpg',
-    photos: ['./spot-images/sp_034.png'],
+    photos: ['./spot-images/sp_034.jpg'],
     notes: '下沙街道北闸北路附近,环境优美空气清新。168 元/5 小时,适合周末休闲。',
     author: { name: '良缘客', avatar: '🎋' },
     visits: 14, likes: 28, createdAt: '2026-06-01'
@@ -566,7 +566,7 @@ export const initialSpots = [
     coords: { lat: 30.42, lng: 120.25 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_035.jpg',
-    photos: ['./spot-images/sp_035.png'],
+    photos: ['./spot-images/sp_035.jpg'],
     notes: '流经临平城区的千年古运河,岸线长,免费垂钓位多。城市河道垂钓试点之一。',
     author: { name: '临平客', avatar: '🏘️' },
     visits: 16, likes: 32, createdAt: '2026-04-18'
@@ -583,7 +583,7 @@ export const initialSpots = [
     coords: { lat: 29.80, lng: 119.65 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_036.jpg',
-    photos: ['./spot-images/sp_036.png'],
+    photos: ['./spot-images/sp_036.jpg'],
     notes: '严子陵钓台一带,富春江最美河段。农家乐多有配套垂钓,大物出没。',
     author: { name: '桐庐隐者', avatar: '🎋' },
     visits: 22, likes: 68, createdAt: '2026-05-25'
@@ -600,7 +600,7 @@ export const initialSpots = [
     coords: { lat: 29.45, lng: 119.50 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_037.jpg',
-    photos: ['./spot-images/sp_037.png'],
+    photos: ['./spot-images/sp_037.jpg'],
     notes: '建德梅城镇徐村,新安江畔。免费野钓,基本不做空军,鱼种繁多,路亚马口绝佳。',
     author: { name: '梅城客', avatar: '⛩️' },
     visits: 17, likes: 73, createdAt: '2026-05-03'
@@ -617,7 +617,7 @@ export const initialSpots = [
     coords: { lat: 30.20, lng: 119.30 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_038.jpg',
-    photos: ['./spot-images/sp_038.png'],
+    photos: ['./spot-images/sp_038.jpg'],
     notes: '天目溪流域西乐村,黄金钓位是溪流上破旧水坝,肉眼可见马口炸水。路亚台钓都行,常见斑鳜红尾巨马口。',
     author: { name: '天目溪客', avatar: '🐟' },
     visits: 18, likes: 95, createdAt: '2026-05-15', featured: true
@@ -632,7 +632,7 @@ export const initialSpots = [
     coords: { lat: 30.30, lng: 119.50 },
     bestSeason: '6-9 月', bestTime: '上午 9-11 点',
     cover: './cover-images/sp_039.jpg',
-    photos: ['./spot-images/sp_039.png'],
+    photos: ['./spot-images/sp_039.jpg'],
     notes: '太湖源头山涧溪流,水质极清。微物路亚亮片收线,马口宽鳍鱲密度高。溯溪鞋必备。',
     author: { name: '太湖源客', avatar: '💦' },
     visits: 22, likes: 82, createdAt: '2026-04-30'
@@ -647,7 +647,7 @@ export const initialSpots = [
     coords: { lat: 30.40, lng: 119.20 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_040.jpg',
-    photos: ['./spot-images/sp_040.png'],
+    photos: ['./spot-images/sp_040.jpg'],
     notes: '临安神龙川景区附近山涧,水流急,马口成群。短竿亮片路亚为主,溯溪进山。',
     author: { name: '神龙川客', avatar: '🐠' },
     visits: 14, likes: 64, createdAt: '2026-05-22'
@@ -662,7 +662,7 @@ export const initialSpots = [
     coords: { lat: 30.50, lng: 119.75 },
     bestSeason: '春夏', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_041.jpg',
-    photos: ['./spot-images/sp_041.png'],
+    photos: ['./spot-images/sp_041.jpg'],
     notes: '余杭鸬鸟镇太平山村溪流,溪哥马口巨多,kaka 上鱼。杭州郊区最近的溪流圣地之一。',
     author: { name: '鸬鸟客', avatar: '🦆' },
     visits: 35, likes: 110, createdAt: '2026-05-08', featured: true
@@ -677,7 +677,7 @@ export const initialSpots = [
     coords: { lat: 30.52, lng: 119.78 },
     bestSeason: '春夏', bestTime: '上午',
     cover: './cover-images/sp_042.jpg',
-    photos: ['./spot-images/sp_042.png'],
+    photos: ['./spot-images/sp_042.jpg'],
     notes: '鸬鸟镇山沟沟景区,高山峡谷清澈溪流,海拔 600+ 米。水温低,夏季避暑圣地,马口密度高。',
     author: { name: '山沟沟客', avatar: '⛰️' },
     visits: 27, likes: 88, createdAt: '2026-04-25'
@@ -692,7 +692,7 @@ export const initialSpots = [
     coords: { lat: 30.45, lng: 119.88 },
     bestSeason: '春夏', bestTime: '上午',
     cover: './cover-images/sp_043.jpg',
-    photos: ['./spot-images/sp_043.png'],
+    photos: ['./spot-images/sp_043.jpg'],
     notes: '四岭水库上游径山双溪,路亚探钓马口热门点。茶园溪流环境,溪边小道平整。',
     author: { name: '径山客', avatar: '🍃' },
     visits: 19, likes: 72, createdAt: '2026-05-04'
@@ -707,7 +707,7 @@ export const initialSpots = [
     coords: { lat: 29.85, lng: 119.95 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_044.jpg',
-    photos: ['./spot-images/sp_044.png'],
+    photos: ['./spot-images/sp_044.jpg'],
     notes: '富阳壶源溪,杭州溪流路亚圣地,马口成群。2 小时狂拉 80 条不是梦。矿泉水级水质。',
     author: { name: '壶源溪客', avatar: '🥇' },
     visits: 31, likes: 132, createdAt: '2026-04-12', featured: true
@@ -722,7 +722,7 @@ export const initialSpots = [
     coords: { lat: 29.90, lng: 119.55 },
     bestSeason: '春夏', bestTime: '上午',
     cover: './cover-images/sp_045.jpg',
-    photos: ['./spot-images/sp_045.png'],
+    photos: ['./spot-images/sp_045.jpg'],
     notes: '龙门古镇旁山溪,古村+溪流组合。微物亮片路亚马口,环境清幽,游客不多。',
     author: { name: '龙门客', avatar: '🏘️' },
     visits: 16, likes: 58, createdAt: '2026-05-19'
@@ -737,7 +737,7 @@ export const initialSpots = [
     coords: { lat: 29.85, lng: 119.60 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_046.jpg',
-    photos: ['./spot-images/sp_046.png'],
+    photos: ['./spot-images/sp_046.jpg'],
     notes: '桐庐天斗山溪流,富春江最美段上游支流。马口密度高,路亚或手竿都行。',
     author: { name: '天斗客', avatar: '🎋' },
     visits: 17, likes: 66, createdAt: '2026-05-25'
@@ -752,7 +752,7 @@ export const initialSpots = [
     coords: { lat: 29.55, lng: 119.30 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_047.jpg',
-    photos: ['./spot-images/sp_047.png'],
+    photos: ['./spot-images/sp_047.jpg'],
     notes: '建德胥溪,新安江支流,水质极佳。溪流马口+下游鳜鱼,微物亮片路亚圣点。',
     author: { name: '胥溪客', avatar: '⛩️' },
     visits: 12, likes: 51, createdAt: '2026-05-30'
@@ -771,7 +771,7 @@ export const initialSpots = [
     coords: { lat: 29.62, lng: 119.02 },
     bestSeason: '全年', bestTime: '全天',
     cover: './cover-images/sp_048.jpg',
-    photos: ['./spot-images/sp_048.png'],
+    photos: ['./spot-images/sp_048.jpg'],
     notes: '城中湖钓鱼岛,千岛湖官方垂钓公园。水陆面积 130 公顷,国际钓场。需办钓鱼证,1 杆 1 钩限 3 杆。',
     author: { name: '城中湖客', avatar: '🎣' },
     visits: 45, likes: 168, createdAt: '2026-05-20', featured: true
@@ -786,7 +786,7 @@ export const initialSpots = [
     coords: { lat: 29.50, lng: 118.65 },
     bestSeason: '全年', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_049.jpg',
-    photos: ['./spot-images/sp_049.png'],
+    photos: ['./spot-images/sp_049.jpg'],
     notes: '淳安姜家镇龙川湾,国家级路亚赛事举办地。中心湖区硬质基底,鳜鱼集中,水清 2-4 米可见度。',
     author: { name: '龙川客', avatar: '🏆' },
     visits: 38, likes: 142, createdAt: '2026-04-15'
@@ -801,7 +801,7 @@ export const initialSpots = [
     coords: { lat: 29.65, lng: 119.10 },
     bestSeason: '春夏', bestTime: '全天',
     cover: './cover-images/sp_050.jpg',
-    photos: ['./spot-images/sp_050.png'],
+    photos: ['./spot-images/sp_050.jpg'],
     notes: '千岛湖文昌镇舍后村,入住免费垂钓,免费泊车。湖边农家乐,鱼种丰富,环境安静。',
     author: { name: '文昌客', avatar: '🏡' },
     visits: 24, likes: 78, createdAt: '2026-05-18'
@@ -818,7 +818,7 @@ export const initialSpots = [
     coords: { lat: 30.30, lng: 119.45 },
     bestSeason: '6-9 月', bestTime: '上午 9-11 点',
     cover: './cover-images/sp_051.jpg',
-    photos: ['./spot-images/sp_051.png'],
+    photos: ['./spot-images/sp_051.jpg'],
     notes: '临安太湖源镇,海拔 550 米千年古村,南苕溪源头。华东最美古村落之一,溪流马口密度高。',
     author: { name: '指南客', avatar: '📸' },
     visits: 16, likes: 89, createdAt: '2026-05-28'
@@ -833,7 +833,7 @@ export const initialSpots = [
     coords: { lat: 30.25, lng: 118.95 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_052.jpg',
-    photos: ['./spot-images/sp_052.png'],
+    photos: ['./spot-images/sp_052.jpg'],
     notes: '浙西三尖太子尖下都林山溪流,清澈见底。溯溪进山,水质矿泉水级,马口溪石斑丰富。',
     author: { name: '浙西客', avatar: '⛰️' },
     visits: 11, likes: 67, createdAt: '2026-06-02'
@@ -848,7 +848,7 @@ export const initialSpots = [
     coords: { lat: 30.13, lng: 118.95 },
     bestSeason: '春夏', bestTime: '上午',
     cover: './cover-images/sp_053.jpg',
-    photos: ['./spot-images/sp_053.png'],
+    photos: ['./spot-images/sp_053.jpg'],
     notes: '清凉峰镇马啸小学旁浅水溪流,开车直达,适合带娃。溪石斑鱼密度高,水浅可玩水抓鱼。',
     author: { name: '清凉峰客', avatar: '🏔️' },
     visits: 18, likes: 54, createdAt: '2026-06-05'
@@ -865,7 +865,7 @@ export const initialSpots = [
     coords: { lat: 30.27, lng: 120.00 },
     bestSeason: '夏秋', bestTime: '夜晚',
     cover: './cover-images/sp_054.jpg',
-    photos: ['./spot-images/sp_054.png'],
+    photos: ['./spot-images/sp_054.jpg'],
     notes: '余杭闲林民丰村无名野河,导航华纳斯五金可达。环境优美,大鱼较难但小鱼多,鲫鱼黄骨鱼。',
     author: { name: '闲林客', avatar: '🌿' },
     visits: 14, likes: 38, createdAt: '2026-05-25'
@@ -880,7 +880,7 @@ export const initialSpots = [
     coords: { lat: 30.55, lng: 119.85 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_055.jpg',
-    photos: ['./spot-images/sp_055.png'],
+    photos: ['./spot-images/sp_055.jpg'],
     notes: '余杭百丈镇仙佰坑村,仙山谷漂流景区上游溪流。水质国家一级,马口溪石斑丰富。',
     author: { name: '百丈客', avatar: '🛶' },
     visits: 13, likes: 61, createdAt: '2026-06-08'
@@ -897,7 +897,7 @@ export const initialSpots = [
     coords: { lat: 29.95, lng: 119.65 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_056.jpg',
-    photos: ['./spot-images/sp_056.png'],
+    photos: ['./spot-images/sp_056.jpg'],
     notes: '富阳窈口村葛溪,壶源江支流。马口宽鳍鱲密度高,微物亮片路亚最佳。',
     author: { name: '葛溪客', avatar: '🌊' },
     visits: 12, likes: 49, createdAt: '2026-06-01'
@@ -914,7 +914,7 @@ export const initialSpots = [
     coords: { lat: 29.85, lng: 119.55 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_057.jpg',
-    photos: ['./spot-images/sp_057.png'],
+    photos: ['./spot-images/sp_057.jpg'],
     notes: '瑶琳镇盘龙石水库,80 亩水面,水深 1.5-14 米。盒饭 15 元/人,水库鱼品质好。',
     author: { name: '瑶琳客', avatar: '🏞️' },
     visits: 22, likes: 78, createdAt: '2026-05-12'
@@ -929,7 +929,7 @@ export const initialSpots = [
     coords: { lat: 29.80, lng: 119.60 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_058.jpg',
-    photos: ['./spot-images/sp_058.png'],
+    photos: ['./spot-images/sp_058.jpg'],
     notes: '桐庐江南镇深澳古村,南宋千年古村,坎儿井古水系。富春江畔,环境清幽,村内有小溪。',
     author: { name: '深澳客', avatar: '🏘️' },
     visits: 19, likes: 86, createdAt: '2026-05-22'
@@ -946,7 +946,7 @@ export const initialSpots = [
     coords: { lat: 29.35, lng: 119.30 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_059.jpg',
-    photos: ['./spot-images/sp_059.png'],
+    photos: ['./spot-images/sp_059.jpg'],
     notes: '建德寿昌江,新安江支流。溪流马口+下游大物,适合溯溪+江钓。',
     author: { name: '寿昌客', avatar: '⛰️' },
     visits: 11, likes: 42, createdAt: '2026-05-28'
@@ -963,7 +963,7 @@ export const initialSpots = [
     coords: { lat: 30.38, lng: 120.13 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_060.jpg',
-    photos: ['./spot-images/sp_060.png'],
+    photos: ['./spot-images/sp_060.jpg'],
     notes: '西塘河拱墅段,运河-余杭界,城市河道垂钓试点。岸线长,免费,鲫鱼为主。',
     author: { name: '西塘客', avatar: '🎣' },
     visits: 16, likes: 35, createdAt: '2026-05-15'
@@ -978,7 +978,7 @@ export const initialSpots = [
     coords: { lat: 30.36, lng: 120.15 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_061.jpg',
-    photos: ['./spot-images/sp_061.png'],
+    photos: ['./spot-images/sp_061.jpg'],
     notes: '上塘河东新关至丁桥路段,城市河道免费垂钓试点。水质清澈,周边设施完善。',
     author: { name: '东新客', avatar: '🚶' },
     visits: 14, likes: 32, createdAt: '2026-05-18'
@@ -993,7 +993,7 @@ export const initialSpots = [
     coords: { lat: 30.33, lng: 120.15 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_062.jpg',
-    photos: ['./spot-images/sp_062.png'],
+    photos: ['./spot-images/sp_062.jpg'],
     notes: '红建河胜利河至瓦窑头河段,城市河道垂钓。两岸平整,免费开放,钓位 5-10 个。',
     author: { name: '拱墅客', avatar: '🌳' },
     visits: 12, likes: 28, createdAt: '2026-05-20'
@@ -1010,7 +1010,7 @@ export const initialSpots = [
     coords: { lat: 30.20, lng: 120.18 },
     bestSeason: '全年', bestTime: '白天 / 夜间',
     cover: './cover-images/sp_063.jpg',
-    photos: ['./spot-images/sp_063.png'],
+    photos: ['./spot-images/sp_063.jpg'],
     notes: '上城区之江路江堤甬江路至望潮路段,钱塘江首个官方垂钓区。100+ 钓位,白天 9-16 点 + 夜间 22-6 点。',
     author: { name: '钱塘客', avatar: '🌉' },
     visits: 56, likes: 198, createdAt: '2026-04-25', featured: true
@@ -1025,7 +1025,7 @@ export const initialSpots = [
     coords: { lat: 30.25, lng: 120.20 },
     bestSeason: '春秋', bestTime: '清晨',
     cover: './cover-images/sp_064.jpg',
-    photos: ['./spot-images/sp_064.png'],
+    photos: ['./spot-images/sp_064.jpg'],
     notes: '运河西路三堡船闸,运河与钱塘江交汇处。路亚圣地,巨物 50+,需要远投。',
     author: { name: '船闸客', avatar: '⚓' },
     visits: 24, likes: 92, createdAt: '2026-05-10'
@@ -1040,7 +1040,7 @@ export const initialSpots = [
     coords: { lat: 30.30, lng: 120.20 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_065.jpg',
-    photos: ['./spot-images/sp_065.png'],
+    photos: ['./spot-images/sp_065.jpg'],
     notes: '上城丁兰广场旁勤丰港,杭州市城市河道垂钓大赛举办地。免费开放,周边设施齐全。',
     author: { name: '丁兰客', avatar: '🏆' },
     visits: 28, likes: 81, createdAt: '2026-05-08'
@@ -1055,7 +1055,7 @@ export const initialSpots = [
     coords: { lat: 30.32, lng: 120.18 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_066.jpg',
-    photos: ['./spot-images/sp_066.png'],
+    photos: ['./spot-images/sp_066.jpg'],
     notes: '上城白石港,德胜东路至沪杭高速段。城市河道垂钓试点,免费,人少安静。',
     author: { name: '白石港客', avatar: '🚶' },
     visits: 11, likes: 26, createdAt: '2026-05-22'
@@ -1072,7 +1072,7 @@ export const initialSpots = [
     coords: { lat: 30.15, lng: 120.20 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_067.jpg',
-    photos: ['./spot-images/sp_067.png'],
+    photos: ['./spot-images/sp_067.jpg'],
     notes: '滨江区孔家河,与小砾山输水河、街道河汇合处,38 个公共垂钓点之一。',
     author: { name: '滨江客', avatar: '🌆' },
     visits: 18, likes: 41, createdAt: '2026-05-12'
@@ -1091,7 +1091,7 @@ export const initialSpots = [
     coords: { lat: 30.35, lng: 119.40 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_068.jpg',
-    photos: ['./spot-images/sp_068.png'],
+    photos: ['./spot-images/sp_068.jpg'],
     notes: '西天目山海拔 1300 米龙王山溪,源头溪流,水质极佳。需徒步进山,马口密度极高,溯溪装备必备。',
     author: { name: '西天目客', avatar: '⛰️' },
     visits: 9, likes: 58, createdAt: '2026-06-10'
@@ -1106,7 +1106,7 @@ export const initialSpots = [
     coords: { lat: 30.10, lng: 118.95 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_069.jpg',
-    photos: ['./spot-images/sp_069.png'],
+    photos: ['./spot-images/sp_069.jpg'],
     notes: '大明山千亩田高山湿地溪流,海拔千米。马口宽鳍鱲丰富,景区内免费,溯溪进山乐趣多。',
     author: { name: '大明山客', avatar: '🏔️' },
     visits: 11, likes: 64, createdAt: '2026-06-12'
@@ -1121,7 +1121,7 @@ export const initialSpots = [
     coords: { lat: 30.28, lng: 119.30 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_070.jpg',
-    photos: ['./spot-images/sp_070.png'],
+    photos: ['./spot-images/sp_070.jpg'],
     notes: '临安白水涧景区山溪,瀑布潭水清澈。短竿亮片溪石斑,微物路亚入门首选。',
     author: { name: '白水涧客', avatar: '💧' },
     visits: 14, likes: 49, createdAt: '2026-06-05'
@@ -1136,7 +1136,7 @@ export const initialSpots = [
     coords: { lat: 30.05, lng: 118.95 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_071.jpg',
-    photos: ['./spot-images/sp_071.png'],
+    photos: ['./spot-images/sp_071.jpg'],
     notes: '浙西大峡谷剑门关,悬崖下溪流。鳜鱼马口都有,水流急,需溯溪鞋和短竿亮片。',
     author: { name: '大峡谷客', avatar: '🗡️' },
     visits: 13, likes: 72, createdAt: '2026-06-15'
@@ -1151,7 +1151,7 @@ export const initialSpots = [
     coords: { lat: 30.22, lng: 119.35 },
     bestSeason: '春夏', bestTime: '上午',
     cover: './cover-images/sp_072.jpg',
-    photos: ['./spot-images/sp_072.png'],
+    photos: ['./spot-images/sp_072.jpg'],
     notes: '临安锦城镇玲珑山溪,近郊可达。马口溪石斑,适合周末短途出游。',
     author: { name: '玲珑客', avatar: '🌸' },
     visits: 12, likes: 41, createdAt: '2026-06-08'
@@ -1168,7 +1168,7 @@ export const initialSpots = [
     coords: { lat: 30.45, lng: 119.90 },
     bestSeason: '春夏', bestTime: '上午',
     cover: './cover-images/sp_073.jpg',
-    photos: ['./spot-images/sp_073.png'],
+    photos: ['./spot-images/sp_073.jpg'],
     notes: '径山禅寺旁双溪上游,茶园溪流环境极美。马口密度高,短竿亮片路亚绝佳。',
     author: { name: '径山禅客', avatar: '🍵' },
     visits: 19, likes: 84, createdAt: '2026-05-30'
@@ -1183,7 +1183,7 @@ export const initialSpots = [
     coords: { lat: 30.42, lng: 119.88 },
     bestSeason: '春夏', bestTime: '全天',
     cover: './cover-images/sp_040.jpg',
-    photos: ['./spot-images/sp_040.png'],
+    photos: ['./spot-images/sp_040.jpg'],
     notes: '余杭径山镇渣河墩,苕溪边露营圣地+溪流路亚点。水流平缓,带娃友好,大彩马(马口成体)经常炸水。免费、距杭州 30 分钟。',
     author: { name: '径山渣河墩客', avatar: '🎣' },
     visits: 28, likes: 132, createdAt: '2026-06-09', featured: true
@@ -1198,7 +1198,7 @@ export const initialSpots = [
     coords: { lat: 30.40, lng: 119.85 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_074.jpg',
-    photos: ['./spot-images/sp_074.png'],
+    photos: ['./spot-images/sp_074.jpg'],
     notes: '余杭九峰山景区,海拔 200 米溪流。周边茶园竹林,溪石斑马口活跃,溯溪可达。',
     author: { name: '九峰客', avatar: '🎋' },
     visits: 13, likes: 56, createdAt: '2026-06-06'
@@ -1213,7 +1213,7 @@ export const initialSpots = [
     coords: { lat: 30.50, lng: 119.80 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_075.jpg',
-    photos: ['./spot-images/sp_075.png'],
+    photos: ['./spot-images/sp_075.jpg'],
     notes: '黄湖镇王位山海拔 700 米山溪。需徒步 30 分钟进山,水质极佳,人迹罕至,马口密度极高。',
     author: { name: '黄湖客', avatar: '⛰️' },
     visits: 8, likes: 47, createdAt: '2026-06-12'
@@ -1230,7 +1230,7 @@ export const initialSpots = [
     coords: { lat: 29.80, lng: 119.85 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_076.jpg',
-    photos: ['./spot-images/sp_076.png'],
+    photos: ['./spot-images/sp_076.jpg'],
     notes: '永昌镇壶源江源头段,比中下游更清。马口溪石斑丰富,微物路亚狂拉点。',
     author: { name: '永昌客', avatar: '🌊' },
     visits: 11, likes: 52, createdAt: '2026-06-09'
@@ -1245,7 +1245,7 @@ export const initialSpots = [
     coords: { lat: 29.95, lng: 119.65 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_077.jpg',
-    photos: ['./spot-images/sp_077.png'],
+    photos: ['./spot-images/sp_077.jpg'],
     notes: '富阳洞桥镇山溪,富春江支流。马口溪石斑,微物路亚圣地,游客少。',
     author: { name: '洞桥客', avatar: '🏞️' },
     visits: 10, likes: 43, createdAt: '2026-06-07'
@@ -1260,7 +1260,7 @@ export const initialSpots = [
     coords: { lat: 30.05, lng: 119.55 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_078.jpg',
-    photos: ['./spot-images/sp_078.png'],
+    photos: ['./spot-images/sp_078.jpg'],
     notes: '富阳万市镇葛溪上游,水源保护区。马口宽鳍鱲丰富,需溯溪进山。',
     author: { name: '万市客', avatar: '💦' },
     visits: 9, likes: 45, createdAt: '2026-06-14'
@@ -1277,7 +1277,7 @@ export const initialSpots = [
     coords: { lat: 29.80, lng: 119.45 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_079.jpg',
-    photos: ['./spot-images/sp_079.png'],
+    photos: ['./spot-images/sp_079.jpg'],
     notes: '桐庐合村乡后溪,天斗山附近。马口宽鳍鱲天堂,溪流保持原始状态。',
     author: { name: '合村客', avatar: '🌲' },
     visits: 8, likes: 49, createdAt: '2026-06-11'
@@ -1292,7 +1292,7 @@ export const initialSpots = [
     coords: { lat: 29.75, lng: 119.40 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_080.jpg',
-    photos: ['./spot-images/sp_080.png'],
+    photos: ['./spot-images/sp_080.jpg'],
     notes: '桐庐百江镇罗山溪,马口溪石斑丰富。微物亮片路亚,游客少,原生态溪流。',
     author: { name: '百江客', avatar: '🎋' },
     visits: 10, likes: 38, createdAt: '2026-06-13'
@@ -1307,7 +1307,7 @@ export const initialSpots = [
     coords: { lat: 29.90, lng: 119.40 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_081.jpg',
-    photos: ['./spot-images/sp_081.png'],
+    photos: ['./spot-images/sp_081.jpg'],
     notes: '桐庐分水镇天斗山溪流。马口宽鳍鱲天堂,水质清澈,游客较少。',
     author: { name: '分水客', avatar: '🏔️' },
     visits: 11, likes: 47, createdAt: '2026-06-10'
@@ -1322,7 +1322,7 @@ export const initialSpots = [
     coords: { lat: 29.85, lng: 119.45 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_082.jpg',
-    photos: ['./spot-images/sp_082.png'],
+    photos: ['./spot-images/sp_082.jpg'],
     notes: '浙西北唯一少数民族乡莪山畲族乡,山哈古道沿线山溪。原生态,马口溪石斑密度高。',
     author: { name: '畲乡客', avatar: '🏞️' },
     visits: 9, likes: 53, createdAt: '2026-06-09'
@@ -1339,7 +1339,7 @@ export const initialSpots = [
     coords: { lat: 29.30, lng: 119.30 },
     bestSeason: '夏秋', bestTime: '清晨',
     cover: './cover-images/sp_083.jpg',
-    photos: ['./spot-images/sp_083.png'],
+    photos: ['./spot-images/sp_083.jpg'],
     notes: '建德航头镇寿昌江段,新安江支流上游。溪流马口+下游大物,溯溪+江钓都好玩。',
     author: { name: '航头客', avatar: '⛵' },
     visits: 8, likes: 36, createdAt: '2026-06-11'
@@ -1354,7 +1354,7 @@ export const initialSpots = [
     coords: { lat: 29.45, lng: 119.45 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_084.jpg',
-    photos: ['./spot-images/sp_084.png'],
+    photos: ['./spot-images/sp_084.jpg'],
     notes: '建德大洋镇兰江段,新安江-富春江-钱塘江一线水域。免费野钓,基本不空军,鱼种繁多。',
     author: { name: '兰江客', avatar: '🌊' },
     visits: 13, likes: 59, createdAt: '2026-06-04'
@@ -1371,7 +1371,7 @@ export const initialSpots = [
     coords: { lat: 29.85, lng: 119.10 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_085.jpg',
-    photos: ['./spot-images/sp_085.png'],
+    photos: ['./spot-images/sp_085.jpg'],
     notes: '淳安临岐镇临岐溪口大桥段,千岛湖季节性垂钓区。溪流马口+湖口翘嘴,免费开放。',
     author: { name: '临岐客', avatar: '🌊' },
     visits: 11, likes: 44, createdAt: '2026-06-08'
@@ -1386,7 +1386,7 @@ export const initialSpots = [
     coords: { lat: 29.75, lng: 118.85 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_086.jpg',
-    photos: ['./spot-images/sp_086.png'],
+    photos: ['./spot-images/sp_086.jpg'],
     notes: '淳安王阜乡仙人潭村,海拔 600 米高山溪流。原生态,游客极少,马口密度极高。',
     author: { name: '仙人潭客', avatar: '⛰️' },
     visits: 7, likes: 42, createdAt: '2026-06-13'
@@ -1403,7 +1403,7 @@ export const initialSpots = [
     coords: { lat: 29.85, lng: 120.15 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_087.jpg',
-    photos: ['./spot-images/sp_087.png'],
+    photos: ['./spot-images/sp_087.jpg'],
     notes: '萧山楼塔镇洲口溪,浦阳江上游。海拔较高山区溪流,马口溪石斑,微物路亚。',
     author: { name: '楼塔客', avatar: '🌊' },
     visits: 9, likes: 38, createdAt: '2026-06-12'
@@ -1418,7 +1418,7 @@ export const initialSpots = [
     coords: { lat: 29.90, lng: 120.15 },
     bestSeason: '夏秋', bestTime: '上午',
     cover: './cover-images/sp_088.jpg',
-    photos: ['./spot-images/sp_088.png'],
+    photos: ['./spot-images/sp_088.jpg'],
     notes: '萧山河上镇里都溪,浦阳江支流山区段。马口溪石斑,环境清幽。',
     author: { name: '河上客', avatar: '🏞️' },
     visits: 8, likes: 34, createdAt: '2026-06-15'
@@ -1435,7 +1435,7 @@ export const initialSpots = [
     coords: { lat: 30.24, lng: 120.10 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_089.jpg',
-    photos: ['./spot-images/sp_089.png'],
+    photos: ['./spot-images/sp_089.jpg'],
     notes: '西湖龙井村茶园溪流,名茶产地旁。溪流马口溪石斑,海拔 200 米,近郊可达。',
     author: { name: '龙井客', avatar: '🍃' },
     visits: 16, likes: 67, createdAt: '2026-06-02'
@@ -1450,7 +1450,7 @@ export const initialSpots = [
     coords: { lat: 30.24, lng: 120.10 },
     bestSeason: '春夏', bestTime: '清晨',
     cover: './cover-images/sp_090.jpg',
-    photos: ['./spot-images/sp_090.png'],
+    photos: ['./spot-images/sp_090.jpg'],
     notes: '西湖灵隐景区上天竺溪,佛教名山脚下山溪。马口溪石斑,佛系路亚点。',
     author: { name: '灵隐客', avatar: '🛕' },
     visits: 13, likes: 52, createdAt: '2026-06-07'
@@ -1468,7 +1468,7 @@ export const initialSpots = [
     coords: { lat: 30.34, lng: 119.42 },
     bestSeason: '5-9 月', bestTime: '清晨 6-9 点',
     cover: './cover-images/sp_091.jpg',
-    photos: ['./spot-images/sp_091.png'],
+    photos: ['./spot-images/sp_091.jpg'],
     notes: '西天目山禅源寺周边海拔 1000+ 米原始溪流,野生溪石斑密度杭州第一。路亚+手竿都行,溯溪鞋必备,门票 80 元。',
     author: { name: '天目客', avatar: '🏔️' },
     visits: 21, likes: 98, createdAt: '2026-07-01', featured: true
@@ -1483,7 +1483,7 @@ export const initialSpots = [
     coords: { lat: 30.13, lng: 118.97 },
     bestSeason: '夏秋', bestTime: '上午 8-11 点',
     cover: './cover-images/sp_092.jpg',
-    photos: ['./spot-images/sp_092.png'],
+    photos: ['./spot-images/sp_092.jpg'],
     notes: '大明山景区万松岭段山溪,海拔 800 米。溪石斑藏石缝,微物亮片路亚或虾肉挂饵,需穿防滑鞋溯溪而上。',
     author: { name: '大明山客', avatar: '🌲' },
     visits: 16, likes: 73, createdAt: '2026-07-02'
@@ -1498,7 +1498,7 @@ export const initialSpots = [
     coords: { lat: 29.50, lng: 118.65 },
     bestSeason: '5-9 月', bestTime: '清晨 5-8 点',
     cover: './cover-images/sp_093.jpg',
-    photos: ['./spot-images/sp_093.png'],
+    photos: ['./spot-images/sp_093.jpg'],
     notes: '淳安汾口镇千里岗山脉原始溪流,千岛湖上游水源地,水质达饮用水标准。溪石斑个体偏大,常见 2-3 两。需自驾深入,路亚为主。',
     author: { name: '千里岗客', avatar: '🐾' },
     visits: 12, likes: 64, createdAt: '2026-07-02'
@@ -1513,7 +1513,7 @@ export const initialSpots = [
     coords: { lat: 29.78, lng: 119.50 },
     bestSeason: '春夏', bestTime: '上午 8-10 点',
     cover: './cover-images/sp_094.jpg',
-    photos: ['./spot-images/sp_094.png'],
+    photos: ['./spot-images/sp_094.jpg'],
     notes: '桐庐天斗山南麓深处溪流,游客罕至。溪石斑藏在深潭石头下,虾肉或蚯蚓手竿逗钓,微物路亚也行。',
     author: { name: '天斗山客', avatar: '🍃' },
     visits: 14, likes: 61, createdAt: '2026-07-03'
@@ -1528,7 +1528,7 @@ export const initialSpots = [
     coords: { lat: 30.50, lng: 119.85 },
     bestSeason: '春夏', bestTime: '清晨 / 傍晚',
     cover: './cover-images/sp_095.jpg',
-    photos: ['./spot-images/sp_095.png'],
+    photos: ['./spot-images/sp_095.jpg'],
     notes: '余杭百丈镇釜托寺后山溪,径山系支流。寺院脚下清净山溪,溪石斑密度高,路亚 + 手竿两相宜。',
     author: { name: '釜托客', avatar: '🛕' },
     visits: 18, likes: 79, createdAt: '2026-07-03'

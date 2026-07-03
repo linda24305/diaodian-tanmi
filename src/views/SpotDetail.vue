@@ -1,7 +1,7 @@
 <template>
   <div class="spot-detail" v-if="spot">
     <div class="hero">
-      <img :src="spot.cover" :alt="spot.name" class="hero-bg" />
+      <img :src="spot.cover" :alt="spot.name" class="hero-bg" fetchpriority="high" />
       <div class="hero-overlay"></div>
       <button class="back-btn" @click="goBack">← 返回地图</button>
       <div class="hero-content">
@@ -149,7 +149,7 @@
         <h2 class="map-feature-title">{{ spot.name }} · 位置</h2>
         <p class="map-feature-hint muted">高德矢量地图 · 周边地名/路网/水系</p>
         <figure class="map-feature-frame">
-          <img :src="mapImage" :alt="`${spot.name} 地图标注`" />
+          <img :src="mapImage" :alt="`${spot.name} 地图标注`" loading="lazy" decoding="async" />
         </figure>
       </div>
     </section>
@@ -610,6 +610,8 @@ function share() {
   border: 1px solid var(--line);
   box-shadow: var(--shadow-lg);
   background: var(--surface-2);
+  /* 给地图图一个最小高度占位, 避免 lazy load 时塌陷 */
+  min-height: 320px;
 }
 .map-feature-frame img {
   display: block;
