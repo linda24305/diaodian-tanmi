@@ -577,15 +577,17 @@ function share() {
   margin: 0 0 24px;
 }
 
-/* ===== 全宽地图标注大图 (页面最下面) ===== */
+/* ===== 全宽地图标注大图 (页面最下面) =====
+   宽度跟随父容器(浏览器视口)自适应, 不写死 max-width,
+   由 padding + width:100% 自然占满. */
 .map-feature {
   width: 100%;
-  padding: 40px 24px 56px;
+  padding: 32px 16px 48px;
   background: var(--surface);
   border-top: 1px solid var(--line-soft);
 }
 .map-feature-inner {
-  max-width: 1600px;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
 }
@@ -613,7 +615,7 @@ function share() {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 90vh;
+  /* 高度跟随宽度走, 由父容器宽度决定 */
   object-fit: contain;
 }
 </style>
