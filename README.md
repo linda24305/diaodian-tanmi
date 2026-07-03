@@ -98,4 +98,11 @@ npm run dev
 ```bash
 npm run build      # 输出到 dist/
 npm run preview    # 预览生产构建
+npm run deploy     # 构建 + 同步 dist 到 gh-pages 分支 + push(自动)
 ```
+
+`npm run deploy` 一条龙:跑 vite build,把 dist 同步到 `gh-pages` 分支(通过 git worktree),commit + push。
+GitHub Pages 接 webhook 自动发布,1-2 分钟后生效。
+
+第一次跑 deploy 会自动建 worktree `/tmp/<项目名>-gh-pages`,之后复用。
+如果 worktree 里有未提交的改动,deploy 会拒绝执行(避免覆盖你的手改)。
