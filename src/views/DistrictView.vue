@@ -26,6 +26,22 @@
           <h2>{{ districtSpots.length }} 处钓点</h2>
         </div>
 
+        <!-- 目标鱼筛选(与 MapView 共享 store.filter.targetFish) -->
+        <div class="filter-row filter-row-fish">
+          <button
+            class="chip chip-sm"
+            :class="{ active: state.filter.targetFish.length === 0 }"
+            @click="setFilter({ targetFish: [] })"
+          >不限鱼种</button>
+          <button
+            v-for="f in featuredFish"
+            :key="f"
+            class="chip chip-sm"
+            :class="{ active: state.filter.targetFish.includes(f) }"
+            @click="toggleFish(f)"
+          >{{ f }}</button>
+        </div>
+
         <!-- 难度筛选 -->
         <div class="filter-row">
           <button
@@ -149,16 +165,27 @@ import { waterTypeLabel, difficultyLabel, waterTypeEmoji } from '@/data/mock'
 
 const route = useRoute()
 const router = useRouter()
-const { getSpotsByDistrict } = useSpots()
+const { state, filteredSpots, setFilter } = useSpots()
 
 const district = computed(() => getDistrictById(route.params.id))
+// 用 filteredSpots 让鱼种/难度/关键字筛选全局生效
 const districtSpots = computed(() =>
-  district.value ? getSpotsByDistrict(district.value.id) : []
+  district.value ? filteredSpots.value.filter((s) => s.districtId === district.value.id) : []
 )
 
 const selectedId = ref(null)
 const hoverId = ref(null)
 const diffFilter = ref('all')
+
+// 鱼种筛选(与 MapView 共享同一组精选鱼)
+const featuredFish = ['马口', '溪石斑', '鲫鱼', '鲤鱼', '翘嘴', '鳜鱼', '草鱼', '鲢鳙']
+function toggleFish(fish) {
+  const cur = state.filter.targetFish
+  const next = cur.includes(fish)
+    ? cur.filter((f) => f !== fish)
+    : [...cur, fish]
+  setFilter({ targetFish: next })
+}
 
 const selected = computed(() =>
   selectedId.value ? districtSpots.value.find((s) => s.id === selectedId.value) : null

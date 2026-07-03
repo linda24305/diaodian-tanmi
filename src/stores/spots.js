@@ -22,12 +22,30 @@ function loadFromStorage() {
   return initialSpots
 }
 
+// 鱼种别名(同种不同叫法 → 统一标准名)
+const FISH_ALIAS = {
+  '石斑': '溪石斑',
+  '光唇鱼': '溪石斑',
+  '溪哥': '马口',
+  '翘嘴鲌': '翘嘴',
+  '蒙古鲌': '翘嘴',
+  '黄颡鱼': '黄颡',
+  '江鳊': '鳊鱼',
+  '红尾': '宽鳍鱲',
+  '斑鳜': '鳜鱼'
+}
+
+export function normalizeFish(name) {
+  return FISH_ALIAS[name] || name
+}
+
 const state = reactive({
   spots: loadFromStorage(),
   filter: {
     waterType: 'all',
     difficulty: 'all',
-    keyword: ''
+    keyword: '',
+    targetFish: []  // 多选,空数组 = 不限鱼种
   },
   liked: JSON.parse(localStorage.getItem('diaodian_liked_v1') || '[]')
 })
@@ -46,10 +64,15 @@ watch(
 
 // 派生
 const filteredSpots = computed(() => {
-  const { waterType, difficulty, keyword } = state.filter
+  const { waterType, difficulty, keyword, targetFish } = state.filter
   return state.spots.filter((s) => {
     if (waterType !== 'all' && s.waterType !== waterType) return false
     if (difficulty !== 'all' && s.difficulty !== difficulty) return false
+    if (targetFish.length > 0) {
+      // 标准化 spot 的鱼种,任一匹配即保留
+      const spotFish = s.fishSpecies.map(normalizeFish)
+      if (!targetFish.some((f) => spotFish.includes(f))) return false
+    }
     if (keyword) {
       const k = keyword.toLowerCase()
       const hit =

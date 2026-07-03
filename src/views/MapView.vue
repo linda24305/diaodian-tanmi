@@ -21,6 +21,22 @@
         </button>
       </div>
 
+      <!-- 目标鱼筛选(多选) -->
+      <div class="filter-row filter-row-fish">
+        <button
+          class="chip chip-sm"
+          :class="{ active: state.filter.targetFish.length === 0 }"
+          @click="setFilter({ targetFish: [] })"
+        >不限鱼种</button>
+        <button
+          v-for="f in featuredFish"
+          :key="f"
+          class="chip chip-sm"
+          :class="{ active: state.filter.targetFish.includes(f) }"
+          @click="toggleFish(f)"
+        >{{ f }}</button>
+      </div>
+
       <!-- 区列表 -->
       <div class="district-list">
         <article
@@ -119,10 +135,30 @@ import { useSpots } from '@/stores/spots'
 import { districts } from '@/data/districts'
 
 const router = useRouter()
-const { state, stats, spotCountsByDistrict, setFilter } = useSpots()
+const { state, stats, filteredSpots, setFilter } = useSpots()
 const hoverId = ref(null)
 
-const spotCounts = computed(() => spotCountsByDistrict.value)
+// 精选鱼种(按热度+代表性挑选,展示前 8 个)
+const featuredFish = ['马口', '溪石斑', '鲫鱼', '鲤鱼', '翘嘴', '鳜鱼', '草鱼', '鲢鳙']
+
+function toggleFish(fish) {
+  const cur = state.filter.targetFish
+  const next = cur.includes(fish)
+    ? cur.filter((f) => f !== fish)
+    : [...cur, fish]
+  setFilter({ targetFish: next })
+}
+
+// 基于 filteredSpots 重新统计各区数量(随鱼种/难度筛选变化)
+const spotCounts = computed(() => {
+  const counts = {}
+  filteredSpots.value.forEach((s) => {
+    if (s.districtId) {
+      counts[s.districtId] = (counts[s.districtId] || 0) + 1
+    }
+  })
+  return counts
+})
 
 function hasSpot(districtId) {
   return (spotCounts.value[districtId] || 0) > 0
