@@ -580,12 +580,12 @@ function share() {
 /* ===== 全宽地图标注大图 (页面最下面) ===== */
 .map-feature {
   width: 100%;
-  padding: 56px 32px 64px;
+  padding: 40px 24px 56px;
   background: var(--surface);
   border-top: 1px solid var(--line-soft);
 }
 .map-feature-inner {
-  max-width: 1280px;
+  max-width: 1600px;
   margin: 0 auto;
   text-align: center;
 }
@@ -599,7 +599,7 @@ function share() {
 }
 .map-feature-hint {
   font-size: 12.5px;
-  margin: 0 0 24px;
+  margin: 0 0 20px;
 }
 .map-feature-frame {
   margin: 0;
@@ -613,7 +613,7 @@ function share() {
   display: block;
   width: 100%;
   height: auto;
-  max-height: 70vh;
+  max-height: 90vh;
   object-fit: contain;
 }
 </style>
