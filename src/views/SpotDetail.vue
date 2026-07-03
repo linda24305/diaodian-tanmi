@@ -42,8 +42,11 @@
         <section class="section">
           <p class="eyebrow">实景</p>
           <h2 class="section-title">现场照片</h2>
-          <div class="photo-gallery">
-            <img v-for="(p, i) in spot.photos" :key="i" :src="p" :alt="`照片 ${i+1}`" class="gallery-img" />
+          <div class="photo-gallery" :class="{ 'is-single': spot.photos.length === 1 }">
+            <figure v-for="(p, i) in spot.photos" :key="i" class="gallery-item">
+              <img :src="p" :alt="`照片 ${i+1}`" class="gallery-img" loading="lazy" />
+              <figcaption class="gallery-tag">{{ photoTag(i) }}</figcaption>
+            </figure>
           </div>
         </section>
 
@@ -160,6 +163,12 @@ const { state, getById, toggleLike, isLiked } = useSpots()
 
 const spot = computed(() => getById(route.params.id))
 const liked = computed(() => (spot.value ? isLiked(spot.value.id) : false))
+
+// 现场照片角标: 根据 URL 后缀判断来源
+const photoTags = ['地图标注', '卫星实景']
+function photoTag(i) {
+  return photoTags[i] || `照片 ${i + 1}`
+}
 
 const nearby = computed(() => {
   if (!spot.value) return []
@@ -313,19 +322,47 @@ function share() {
 
 .photo-gallery {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 10px;
-  height: 320px;
+  grid-template-columns: 1fr 2fr;
+  gap: 12px;
+}
+.photo-gallery.is-single {
+  grid-template-columns: 1fr;
+}
+.gallery-item {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+}
+.gallery-item:first-child {
+  aspect-ratio: 4 / 5;
+}
+.gallery-item:last-child {
+  aspect-ratio: 16 / 10;
+  min-height: 320px;
 }
 .gallery-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: var(--r-md);
-  background: var(--surface-2);
+  display: block;
+  transition: transform 0.3s ease;
 }
-.gallery-img:first-child {
-  grid-row: span 1;
+.gallery-item:hover .gallery-img {
+  transform: scale(1.04);
+}
+.gallery-tag {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  padding: 3px 9px;
+  background: rgba(0, 0, 0, 0.62);
+  color: #f4ede0;
+  font-size: 11px;
+  border-radius: 999px;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(4px);
 }
 
 .fish-grid {

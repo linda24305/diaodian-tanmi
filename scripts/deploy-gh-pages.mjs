@@ -96,6 +96,25 @@ if (existsSync(faviconSrc)) {
   cpSync(faviconSrc, join(wtPath, 'favicon.svg'))
 }
 
+// 同步 public/ 下其他子目录(比如 spot-images/), 保持目录结构
+const publicDir = join(ROOT, 'public')
+for (const entry of readdirSync(publicDir, { withFileTypes: true })) {
+  if (!entry.isDirectory()) continue
+  if (entry.name === 'spot-images') {
+    const src = join(publicDir, entry.name)
+    const dst = join(wtPath, entry.name)
+    if (existsSync(dst)) {
+      for (const f of readdirSync(dst)) rmSync(join(dst, f))
+    } else {
+      execSync(`mkdir -p ${dst}`)
+    }
+    for (const f of readdirSync(src)) {
+      cpSync(join(src, f), join(dst, f))
+    }
+    console.log(`  + ${entry.name}/ (${readdirSync(src).length} files)`)
+  }
+}
+
 // macOS 杂质,gh-pages 不该提交
 for (const noise of ['.DS_Store']) {
   const p = join(wtPath, noise)
