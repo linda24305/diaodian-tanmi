@@ -39,7 +39,7 @@
           <p class="notes-text">{{ spot.notes }}</p>
         </section>
 
-        <section class="section">
+        <section class="section" v-if="false">
           <p class="eyebrow">实景</p>
           <h2 class="section-title">现场照片</h2>
           <div class="photo-gallery" :class="{ 'is-single': spot.photos.length === 1 }">
@@ -141,6 +141,18 @@
         </div>
       </aside>
     </div>
+
+    <!-- 全宽地图标注大图: 放在详情区下方, 跟 hero 对称 -->
+    <section v-if="mapImage" class="map-feature">
+      <div class="map-feature-inner">
+        <p class="eyebrow">地图标注</p>
+        <h2 class="map-feature-title">{{ spot.name }} · 位置</h2>
+        <p class="map-feature-hint muted">高德矢量地图 · 周边地名/路网/水系</p>
+        <figure class="map-feature-frame">
+          <img :src="mapImage" :alt="`${spot.name} 地图标注`" />
+        </figure>
+      </div>
+    </section>
   </div>
 
   <div v-else class="not-found">
@@ -163,6 +175,13 @@ const { state, getById, toggleLike, isLiked } = useSpots()
 
 const spot = computed(() => getById(route.params.id))
 const liked = computed(() => (spot.value ? isLiked(spot.value.id) : false))
+
+// 底部大图: 取 spot.photos 里的第一张矢量图 (png)
+const mapImage = computed(() => {
+  if (!spot.value) return ''
+  const png = (spot.value.photos || []).find((p) => p.endsWith('.png'))
+  return png || ''
+})
 
 // 现场照片角标: 根据 URL 后缀判断来源
 const photoTags = ['地图标注', '卫星实景']
@@ -556,5 +575,45 @@ function share() {
 }
 .not-found p {
   margin: 0 0 24px;
+}
+
+/* ===== 全宽地图标注大图 (页面最下面) ===== */
+.map-feature {
+  width: 100%;
+  padding: 56px 32px 64px;
+  background: var(--surface);
+  border-top: 1px solid var(--line-soft);
+}
+.map-feature-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+.map-feature .eyebrow {
+  margin-bottom: 6px;
+}
+.map-feature-title {
+  font-size: 26px;
+  margin: 0 0 6px;
+  font-family: var(--font-serif);
+}
+.map-feature-hint {
+  font-size: 12.5px;
+  margin: 0 0 24px;
+}
+.map-feature-frame {
+  margin: 0;
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+  background: var(--surface-2);
+}
+.map-feature-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 70vh;
+  object-fit: contain;
 }
 </style>

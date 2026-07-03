@@ -36,7 +36,7 @@ export const initialSpots = [
     coords: { lat: 29.71, lng: 118.96 },
     bestSeason: '春秋两季', bestTime: '清晨 5-8 点',
     cover: 'https://images.unsplash.com/photo-1694287673605-1c08caa91452?w=800&q=80',
-    photos: ['/spot-images/sp_001.png', '/spot-images/sp_001.jpg'],
+    photos: ['/spot-images/sp_001.png'],
     notes: '千岛湖西南湾,水极清,桂鱼密度高。建议 3.6 米软调竿,米诺或铅头钩挂钩。岸边礁石区穿防滑鞋。',
     author: { name: '老周', avatar: '🐟' },
     visits: 24, likes: 86, createdAt: '2026-05-12', featured: true
@@ -113,7 +113,7 @@ export const initialSpots = [
     coords: { lat: 30.23, lng: 119.69 },
     bestSeason: '四季皆宜', bestTime: '傍晚 5-8 点',
     cover: 'https://images.unsplash.com/photo-1605537075888-88a61728d8aa?w=800&q=80',
-    photos: ['/spot-images/sp_003.png', '/spot-images/sp_003.jpg'],
+    photos: ['/spot-images/sp_003.png'],
     notes: '网红水上森林,池杉林立。岸边栈道可下竿,翘嘴活跃。手竿商品饵亦可。',
     author: { name: '临安客', avatar: '🦆' },
     visits: 32, likes: 96, createdAt: '2026-04-22'
@@ -128,7 +128,7 @@ export const initialSpots = [
     coords: { lat: 30.18, lng: 119.40 },
     bestSeason: '春末到秋', bestTime: '清晨 / 傍晚',
     cover: 'https://images.unsplash.com/photo-1705747894609-6a7d17a8cfb7?w=800&q=80',
-    photos: ['/spot-images/sp_012.png', '/spot-images/sp_012.jpg'],
+    photos: ['/spot-images/sp_012.png'],
     notes: '於潜镇至千秋关之间,临安西部山区的"世外桃源"。集水面积 81 平方公里,水质一流,人少景美。',
     author: { name: '潜川客', avatar: '🌲' },
     visits: 11, likes: 78, createdAt: '2026-04-02'
@@ -237,7 +237,7 @@ export const initialSpots = [
     coords: { lat: 30.32, lng: 120.13 },
     bestSeason: '全年', bestTime: '清晨 / 傍晚',
     cover: 'https://images.unsplash.com/photo-1493787039806-2edcbe808750?w=800&q=80',
-    photos: ['/spot-images/sp_005.png', '/spot-images/sp_005.jpg'],
+    photos: ['/spot-images/sp_005.png'],
     notes: '城北运河段,两岸步道可下竿。鲫鱼为主,偶有鲤鱼。重铅到底,商品饵搓饵。',
     author: { name: '拱墅老李', avatar: '🎣' },
     visits: 28, likes: 52, createdAt: '2026-05-25'
@@ -600,7 +600,7 @@ export const initialSpots = [
     coords: { lat: 29.45, lng: 119.50 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: 'https://images.unsplash.com/photo-1757582780839-150cabc4aa17?w=800&q=80',
-    photos: ['/spot-images/sp_037.png', '/spot-images/sp_037.jpg'],
+    photos: ['/spot-images/sp_037.png'],
     notes: '建德梅城镇徐村,新安江畔。免费野钓,基本不做空军,鱼种繁多,路亚马口绝佳。',
     author: { name: '梅城客', avatar: '⛩️' },
     visits: 17, likes: 73, createdAt: '2026-05-03'
@@ -662,7 +662,7 @@ export const initialSpots = [
     coords: { lat: 30.50, lng: 119.75 },
     bestSeason: '春夏', bestTime: '清晨 / 傍晚',
     cover: 'https://images.unsplash.com/photo-1712114123182-c239c5205d22?w=800&q=80',
-    photos: ['/spot-images/sp_041.png', '/spot-images/sp_041.jpg'],
+    photos: ['/spot-images/sp_041.png'],
     notes: '余杭鸬鸟镇太平山村溪流,溪哥马口巨多,kaka 上鱼。杭州郊区最近的溪流圣地之一。',
     author: { name: '鸬鸟客', avatar: '🦆' },
     visits: 35, likes: 110, createdAt: '2026-05-08', featured: true
@@ -707,7 +707,7 @@ export const initialSpots = [
     coords: { lat: 29.85, lng: 119.95 },
     bestSeason: '夏秋', bestTime: '清晨 / 傍晚',
     cover: 'https://images.unsplash.com/photo-1756968429262-ca2d5b589fe5?w=800&q=80',
-    photos: ['/spot-images/sp_044.png', '/spot-images/sp_044.jpg'],
+    photos: ['/spot-images/sp_044.png'],
     notes: '富阳壶源溪,杭州溪流路亚圣地,马口成群。2 小时狂拉 80 条不是梦。矿泉水级水质。',
     author: { name: '壶源溪客', avatar: '🥇' },
     visits: 31, likes: 132, createdAt: '2026-04-12', featured: true
@@ -848,7 +848,7 @@ export const initialSpots = [
     coords: { lat: 30.13, lng: 118.95 },
     bestSeason: '春夏', bestTime: '上午',
     cover: 'https://images.unsplash.com/photo-1728001528714-99f5ace2c7b5?w=800&q=80',
-    photos: ['/spot-images/sp_053.png', '/spot-images/sp_053.jpg'],
+    photos: ['/spot-images/sp_053.png'],
     notes: '清凉峰镇马啸小学旁浅水溪流,开车直达,适合带娃。溪石斑鱼密度高,水浅可玩水抓鱼。',
     author: { name: '清凉峰客', avatar: '🏔️' },
     visits: 18, likes: 54, createdAt: '2026-06-05'
