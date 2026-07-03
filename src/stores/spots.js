@@ -6,7 +6,16 @@ const STORAGE_KEY = 'diaodian_spots_v1'
 function loadFromStorage() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY)
-    if (raw) return JSON.parse(raw)
+    if (raw) {
+      const stored = JSON.parse(raw)
+      // 合并 mock 里新增的钓点(按 id 去重),保留用户已有数据 + 自己添加的点
+      const storedIds = new Set(stored.map((s) => s.id))
+      const newOnes = initialSpots.filter((s) => !storedIds.has(s.id))
+      if (newOnes.length > 0) {
+        return [...stored, ...newOnes]
+      }
+      return stored
+    }
   } catch (e) {
     console.warn('[spots store] 加载本地数据失败', e)
   }

@@ -1454,6 +1454,84 @@ export const initialSpots = [
     notes: '西湖灵隐景区上天竺溪,佛教名山脚下山溪。马口溪石斑,佛系路亚点。',
     author: { name: '灵隐客', avatar: '🛕' },
     visits: 13, likes: 52, createdAt: '2026-06-07'
+  }),
+
+  // ====== 溪石斑专项 (5 个新增) ======
+  // 溪石斑(光唇鱼)爱清水急流石头底,以下点位都是杭州口碑经典
+  spot({
+    id: 'sp_091', districtId: 'linan',
+    name: '西天目·禅源寺溪',
+    region: '杭州 · 临安',
+    waterType: 'creek',
+    fishSpecies: ['溪石斑', '马口', '宽鳍鱲'],
+    difficulty: 'hard', rating: 4.9,
+    coords: { lat: 30.34, lng: 119.42 },
+    bestSeason: '5-9 月', bestTime: '清晨 6-9 点',
+    cover: 'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&q=80',
+    photos: ['https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=800&q=80'],
+    notes: '西天目山禅源寺周边海拔 1000+ 米原始溪流,野生溪石斑密度杭州第一。路亚+手竿都行,溯溪鞋必备,门票 80 元。',
+    author: { name: '天目客', avatar: '🏔️' },
+    visits: 21, likes: 98, createdAt: '2026-07-01', featured: true
+  }),
+  spot({
+    id: 'sp_092', districtId: 'linan',
+    name: '大明山·万松岭溪',
+    region: '杭州 · 临安',
+    waterType: 'creek',
+    fishSpecies: ['溪石斑', '马口', '光唇鱼'],
+    difficulty: 'medium', rating: 4.7,
+    coords: { lat: 30.13, lng: 118.97 },
+    bestSeason: '夏秋', bestTime: '上午 8-11 点',
+    cover: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80',
+    photos: ['https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&q=80'],
+    notes: '大明山景区万松岭段山溪,海拔 800 米。溪石斑藏石缝,微物亮片路亚或虾肉挂饵,需穿防滑鞋溯溪而上。',
+    author: { name: '大明山客', avatar: '🌲' },
+    visits: 16, likes: 73, createdAt: '2026-07-02'
+  }),
+  spot({
+    id: 'sp_093', districtId: 'chunan',
+    name: '汾口镇·千里岗山溪',
+    region: '杭州 · 淳安',
+    waterType: 'creek',
+    fishSpecies: ['溪石斑', '马口', '宽鳍鱲', '光唇鱼'],
+    difficulty: 'hard', rating: 4.8,
+    coords: { lat: 29.50, lng: 118.65 },
+    bestSeason: '5-9 月', bestTime: '清晨 5-8 点',
+    cover: 'https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80',
+    photos: ['https://images.unsplash.com/photo-1505142468610-359e7d316be0?w=800&q=80'],
+    notes: '淳安汾口镇千里岗山脉原始溪流,千岛湖上游水源地,水质达饮用水标准。溪石斑个体偏大,常见 2-3 两。需自驾深入,路亚为主。',
+    author: { name: '千里岗客', avatar: '🐾' },
+    visits: 12, likes: 64, createdAt: '2026-07-02'
+  }),
+  spot({
+    id: 'sp_094', districtId: 'tonglu',
+    name: '天斗山·南麓深溪',
+    region: '杭州 · 桐庐',
+    waterType: 'creek',
+    fishSpecies: ['溪石斑', '光唇鱼', '马口'],
+    difficulty: 'medium', rating: 4.6,
+    coords: { lat: 29.78, lng: 119.50 },
+    bestSeason: '春夏', bestTime: '上午 8-10 点',
+    cover: 'https://images.unsplash.com/photo-1480497490787-505ec076689f?w=800&q=80',
+    photos: ['https://images.unsplash.com/photo-1480497490787-505ec076689f?w=800&q=80'],
+    notes: '桐庐天斗山南麓深处溪流,游客罕至。溪石斑藏在深潭石头下,虾肉或蚯蚓手竿逗钓,微物路亚也行。',
+    author: { name: '天斗山客', avatar: '🍃' },
+    visits: 14, likes: 61, createdAt: '2026-07-03'
+  }),
+  spot({
+    id: 'sp_095', districtId: 'yuhang',
+    name: '百丈镇·釜托寺后山溪',
+    region: '杭州 · 余杭',
+    waterType: 'creek',
+    fishSpecies: ['溪石斑', '马口', '溪哥'],
+    difficulty: 'medium', rating: 4.7,
+    coords: { lat: 30.50, lng: 119.85 },
+    bestSeason: '春夏', bestTime: '清晨 / 傍晚',
+    cover: 'https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=800&q=80',
+    photos: ['https://images.unsplash.com/photo-1542640244-7e672d6cef4e?w=800&q=80'],
+    notes: '余杭百丈镇釜托寺后山溪,径山系支流。寺院脚下清净山溪,溪石斑密度高,路亚 + 手竿两相宜。',
+    author: { name: '釜托客', avatar: '🛕' },
+    visits: 18, likes: 79, createdAt: '2026-07-03'
   })
 ]
 
